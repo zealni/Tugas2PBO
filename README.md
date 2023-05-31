@@ -8,6 +8,7 @@ Di dalam kode di atas, terdapat tiga kelas objek yang saling berhubungan: Mahasi
 - Kelas ini memiliki metode:
 - `__init__(self, nama, nim, jurusan)`: metode inisialisasi yang digunakan untuk menginisialisasi atribut Nama, NIM, dan Jurusan saat objek Mahasiswa dibuat.
 - `tampilkan_info(self)`: metode untuk menampilkan informasi Nama, NIM, dan nama Jurusan mahasiswa.
+- 
 2. Kelas Jurusan:
 - Kelas ini memiliki atribut:
 - NamaJurusan: untuk menyimpan nama jurusan (bertipe string)
@@ -16,6 +17,7 @@ Di dalam kode di atas, terdapat tiga kelas objek yang saling berhubungan: Mahasi
 - `__init__(self, nama_jurusan)`: metode inisialisasi yang digunakan untuk menginisialisasi atribut NamaJurusan dan DaftarMahasiswa saat objek Jurusan dibuat.
 - `tambah_mahasiswa(self, mahasiswa)`: metode untuk menambahkan objek Mahasiswa ke dalam daftar DaftarMahasiswa.
 - `tampilkan_daftar_mahasiswa(self)`: metode untuk menampilkan daftar mahasiswa yang terdaftar dalam Jurusan.
+- 
 3. Kelas Universitas:
 - Kelas ini memiliki atribut:
 - NamaUniversitas: untuk menyimpan nama universitas (bertipe string)
@@ -24,6 +26,7 @@ Di dalam kode di atas, terdapat tiga kelas objek yang saling berhubungan: Mahasi
 - `__init__(self, nama_universitas)`: metode inisialisasi yang digunakan untuk menginisialisasi atribut NamaUniversitas dan DaftarJurusan saat objek Universitas dibuat.
 - `tambah_jurusan(self, jurusan)`: metode untuk menambahkan objek Jurusan ke dalam daftar DaftarJurusan.
 - `tampilkan_daftar_jurusan(self)`: metode untuk menampilkan daftar jurusan yang ada di Universitas.
+-
 Kemudian kita membuat main program yang mana sesuai dengan pertanyaan dari soal yaitu:
 - Membuat objek Universitas dengan nama "XYZ College" dengan `universitas_xyz = Universitas("XYZ University")`.
 - Membuat objek Jurusan dengan nama "Teknik Informatika" dengan `jurusan_ti = Jurusan("Teknik Informatika")`.
